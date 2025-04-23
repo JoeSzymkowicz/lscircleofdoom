@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FFFFFF; /* Optional: Add a background color */
+}
+
+h1#today-text {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+    color: #333; /* Optional: Adjust text color */
+}
+
+img {
+    width: 700px; /* 5 times larger than the original 200px */
+    transition: transform 0.5s ease; /* Smooth rotation transition */
+}
+
+#circle {
+    max-width: 100%;
+    max-height: 100%;
+}
