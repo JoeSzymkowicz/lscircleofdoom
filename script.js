@@ -15,7 +15,7 @@ function rotateCircle() {
     const daysSinceStart = Math.floor(diff / oneDay);
 
     // Calculate rotation degrees (1 full rotation = 360 degrees)
-    const rotationDegrees = (daysSinceStart / 365) * 360;
+    const rotationDegrees = -(daysSinceStart / 365) * 360;
     image.style.transform = `rotate(${rotationDegrees}deg)`;
 }
 
